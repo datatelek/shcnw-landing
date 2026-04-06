@@ -373,13 +373,7 @@ button { cursor: pointer; background: none; border: none; }
     var(--color-bg);
 }
 .hero-pattern {
-  position: absolute;
-  inset: 0;
-  background-image:
-    linear-gradient(rgba(26,86,168,0.04) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(26,86,168,0.04) 1px, transparent 1px);
-  background-size: 48px 48px;
-  mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 30%, transparent 100%);
+  display: none;
 }
 .hero-content {
   position: relative;
